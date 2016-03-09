@@ -14,12 +14,13 @@ body {
     margin-bottom: 50px;
     overflow: hidden;
     background: white;
+
 }
 
 .header h1 {
     margin: 0 0 20px;
     padding: 50px;
-    background: #333;
+    background: #220901;
     color: white;
     font-size: 55px;
     font-weight: 300;
@@ -30,6 +31,7 @@ body {
 .header_Nav {
     padding-bottom: 20px;
     text-align: center;
+
 }
 
 .header_Nav a {
@@ -37,6 +39,7 @@ body {
     padding-bottom: 3px;
     color: #333;
     font-size: 15px;
+    font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
@@ -70,10 +73,12 @@ h2 {
     margin: 0 0 10px;
     font-size: 27px;
     color: #666666;
+
 }
 
 .article-text p {
     color: #666666;
+    font-weight: 700;
 }
 
 .articleExpand {
@@ -84,11 +89,13 @@ h2 {
     font-size: 13px;
     color: #333;
     text-decoration: none;
+    font-weight: 700;
 }
 
 .article-image {
 
     margin: ;
+    border-radius: 6px;
 }
 
 
@@ -120,14 +127,16 @@ h2 {
 
 .Slide_Info span {
     padding: 7px 10px;
-    background: #413D3B;
+    font-weight: 700;
+    /*background: #413D3B;*/
 }
 
 .Slide_Info p {
     display: inline-block;
     margin: 0;
     padding: 10px;
-    background: #413D3B;
+    font-weight: 700;
+    /*background: #413D3B;*/
     font-size: 12px;
     color: white;
 }
@@ -151,12 +160,13 @@ h2 {
     overflow: hidden;
     margin-top: 50px;
     padding: 30px;
-    background: #F1F1F1;
+    background: #220901;
 }
 
 .footer a, .footer span, .footer p {
     font-size: 13px;
-    color: #333333;
+    color: #fff;
+    font-weight: 700;
 }
 
 .footer a {
@@ -180,6 +190,8 @@ h2 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 14px;
+    font-weight: 700;
+    color: #fff;
 }
 
 input[type="email"] {
@@ -188,6 +200,7 @@ input[type="email"] {
     border: none;
     line-height: 30px;
     width: 70% !important;
+    font-weight: 700;
 }
 
 input[type="submit"] {
@@ -196,4 +209,5 @@ input[type="submit"] {
     border: none;
     line-height: 30px;
     width: 25% !important;
+    font-weight: 700;
 }
